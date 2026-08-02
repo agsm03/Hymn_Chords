@@ -1,56 +1,52 @@
 {title: Here I Am, Lord}
-{key: G}
-
-{comment: Intro}
-[G]
 
 {comment: Verse 1}
 [G]I, the Lord of [C]sea and [G]sky
-[G]I have heard my [C]people [G]cry [D] [G]
-[G]All who dwell in [Em]dark and [Am]sin, [G] [C]
-[Am]My [Am]hand will [D]save [D] [G] [D7] [G]
+I have [C]heard my [G]people [D]cry [G]
+All who [Em]dwell in [Am7]dark and [C]sin, [Am]
+My [Am7]hand will [D]save [G]
 
-[G]I who made the [C]stars of [G]night
-[G]I will make their [C]darkness [G]bright [D] [G]
-[G]Who will bear My [Em]light to [Am]them [G] [C] [Am]
-[Am]Whom [G]shall I [C]send? [D]
+I who made the [C]stars of [G]night
+I will [C]make their [G]darkness [D]bright [G]
+Who will [Em]bear My [Am7]light to [C]them [Am]
+Whom [Am7]shall I [D]send? [D7]
 
 {comment: Refrain}
-[D7]Here I [G]am, [G]Lord, [G]Is it [G]I [GM7]Lord? [C] [G]
-[G]I [G]have heard You calling in the [Am]night [G] [C] [D]
-[D7]I will [G]go, [G]Lord, [G]if You [G]lead [GM7]me [C] [C] [G]
-[G]I [G]will [G]hold Your people in my [Am7]heart [D7] [G] [G] [G] [G] [G]
+Here I [G]am, Lord, Is it [Em]I Lord? [G]
+I have [G]heard You [Am7]calling in the [D]night [D7]
+I will [G]go, Lord, if You [Em]lead me 
+I will [G]hold Your [Am7]people in [D]my [G]heart 
 
 {comment: Verse 2}
-[G]I, the Lord of [C]snow and [G]rain
-[G]I have borne My [C]people’s [G]pain [D] [G]
-[G]I have wept for [Em]love of [Am]them, [G] [C]
-[Am]they [Am]turn a[D]way [D] [G] [D7] [G]
+I, the Lord of [C]snow and [G]rain
+I have [C]borne My [G]people’s [D]pain [G] 
+I have [Em]wept for [Am7]love of [C]them, [Am]
+they [Am7]turn a[D]way [G] 
 
-[G]I will break their [C]hearts of [G]stone
-[G]Give them hearts for [C]love a[G]lone [D] [G]
-[G]I will speak My [Em]word to [Am]them [G] [C] [Am]
-[Am]Whom [G]shall I [C]send? [D]
+I will break their [C]hearts of [G]stone
+Give them [C]hearts for [G]love a[D]lone [G]
+I will [Em]speak My [Am7]word to [C]them [Am]
+Whom [Am7]shall I [D]send? [D7]
 
 {comment: Refrain}
-[D7]Here I [G]am, [G]Lord, [G]Is it [G]I [GM7]Lord? [C] [G]
-[G]I [G]have heard You calling in the [Am]night [G] [C] [D]
-[D7]I will [G]go, [G]Lord, [G]if You [G]lead [GM7]me [C] [C] [G]
-[G]I [G]will [G]hold Your people in my [Am7]heart [D7] [G] [G] [G] [G] [G]
+Here I [G]am, Lord, Is it [Em]I Lord? [G]
+I have [G]heard You [Am7]calling in the [D]night [D7]
+I will [G]go, Lord, if You [Em]lead me 
+I will [G]hold Your [Am7]people in [D]my [G]heart 
 
 {comment: Verse 3}
-[G]I, the Lord of [C]wind and [G]flame
-[G]I will tend the [C]poor and [G]lame [D] [G]
-[G]I will set a [Em]feast for [Am]them, [G] [C]
-[Am]My [Am]hand will [D]save [D] [G] [D7] [G]
+I, the Lord of [C]wind and [G]flame
+I will [C]tend the [G]poor and [D]lame [G]
+I will [Em]set a [Am7]feast for [C]them, [Am]
+My [Am7]hand will [D]save [G]
 
-[G]Finest bread I [C]will pro[G]vide
-[G]Till their hearts be [C]satis[G]fied [D] [G]
-[G]I will give My [Em]life to [Am]them [G] [C] [Am]
-[Am]Whom [G]shall I [C]send? [D]
+Finest bread I [C]will pro[G]vide
+Till their [C]hearts be [G]satis[D]fied [G]
+I will [Em]give My [Am7]life to [C]them [Am]
+Whom [Am7]shall I [D]send? [D7]
 
 {comment: Refrain}
-[D7]Here I [G]am, [G]Lord, [G]Is it [G]I [GM7]Lord? [C] [G]
-[G]I [G]have heard You calling in the [Am]night [G] [C] [D]
-[D7]I will [G]go, [G]Lord, [G]if You [G]lead [GM7]me [C] [C] [G]
-[G]I [G]will [G]hold Your people in my [Am7]heart [D7] [G] [G] [G] [G] [G]
+Here I [G]am, Lord, Is it [Em]I Lord? [G]
+I have [G]heard You [Am7]calling in the [D]night [D7]
+I will [G]go, Lord, if You [Em]lead me 
+I will [G]hold Your [Am7]people in [D]my [G]heart 
