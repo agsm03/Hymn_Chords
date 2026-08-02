@@ -1,5 +1,5 @@
 {title: Gather the People}
-
+{comment: 3/4}
 {comment: Chorus}
 [G]Gather the [C]people! [D]Enter the [Em]feast!
 [C]All are in[G]vited, the [F]greatest and [D]least
