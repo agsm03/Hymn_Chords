@@ -9,8 +9,8 @@
 {comment: Refrain}
 In the [Bm]bread, [F#m]blessed, [G]broken and [D]shared,
 [G]Christ is our [D]life, whose [E]presence we [A]bear.
-[A] [F#]Come, O [Bm]Spirit, [F#m]make your [Bm]grace re[D]vealed
-[G]in this [Em]holy [D]meal. [Em] [D] [Em]
+[A][F#]Come, O [Bm]Spirit, [F#m]make your [Bm]grace re[D]vealed [G]
+in this [Em]holy [D]meal. [Em] [D] [Em]
 
 {comment: Verse 2}
 [D]Spirit and [F#m]grace, [G]here in this [Bm]meal;
@@ -21,8 +21,8 @@ In the [Bm]bread, [F#m]blessed, [G]broken and [D]shared,
 {comment: Refrain}
 In the [Bm]bread, [F#m]blessed, [G]broken and [D]shared,
 [G]Christ is our [D]life, whose [E]presence we [A]bear.
-[A] [F#]Come, O [Bm]Spirit, [F#m]make your [Bm]grace re[D]vealed
-[G]in this [Em]ho - ly [D]meal. [Em] [D] [Em]
+[A][F#]Come, O [Bm]Spirit, [F#m]make your [Bm]grace re[D]vealed [G]
+in this [Em]holy [D]meal. [Em] [D] [Em]
 
 {comment: Verse 3}
 [D]Spirit and [F#m]grace, [G]here in this [Bm]place;
@@ -33,8 +33,8 @@ In the [Bm]bread, [F#m]blessed, [G]broken and [D]shared,
 {comment: Refrain}
 In the [Bm]bread, [F#m]blessed, [G]broken and [D]shared,
 [G]Christ is our [D]life, whose [E]presence we [A]bear.
-[A] [F#]Come, O [Bm]Spirit, [F#m]make your [Bm]grace re[D]vealed
-[G]in this [Em]holy [D]meal. [Em] [D] [Em]
+[A][F#]Come, O [Bm]Spirit, [F#m]make your [Bm]grace re[D]vealed [G]
+in this [Em]holy [D]meal. [Em] [D] [Em]
 
 {comment: Verse 4}
 [D]Spirit of [F#m]God, [G]sending us [Bm]forth;
@@ -45,5 +45,5 @@ In the [Bm]bread, [F#m]blessed, [G]broken and [D]shared,
 {comment: Outro}
 In the [Bm]bread, [F#m]blessed, [G]broken and [D]shared,
 [G]Christ is our [D]life, whose [E]presence we [A]bear.
-[A] [F#]Come, O [Bm]Spirit, [F#m]make your [Bm]grace re[D]vealed
-[G]in this [Em]holy [D]meal. [Em] [D] [Em] [D]
+[A][F#]Come, O [Bm]Spirit, [F#m]make your [Bm]grace re[D]vealed [G]
+in this [Em]holy [D]meal. [Em] [D] [Em]
