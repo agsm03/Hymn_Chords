@@ -1,5 +1,5 @@
 {title: City of God}
-
+{comment: 6/4}
 {comment: Verse 1}
 [D]Awake from your [Em7]slumber! [A]Arise from your [D]sleep!
 A new day is [Em7]dawning [A]for all those who [D]weep [G] [D]

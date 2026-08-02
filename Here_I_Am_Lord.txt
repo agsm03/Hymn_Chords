@@ -1,5 +1,5 @@
 {title: Here I Am, Lord}
-
+{comment: 4/4}
 {comment: Verse 1}
 [G]I, the Lord of [C]sea and [G]sky
 I have [C]heard my [G]people [D]cry [G]

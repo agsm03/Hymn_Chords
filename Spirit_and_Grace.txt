@@ -1,5 +1,5 @@
 {title: Spirit and Grace}
-
+{comment: 3/4}
 {comment: Verse 1}
 [D]Spirit and [F#m]grace, [G]here in this [Bm]meal;
 [G]You are the [D]wind that [G]breathes through the [A]field. 
