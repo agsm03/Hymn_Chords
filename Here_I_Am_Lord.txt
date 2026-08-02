@@ -1,0 +1,56 @@
+{title: Here I Am, Lord}
+{key: G}
+
+{comment: Intro}
+[G]
+
+{comment: Verse 1}
+[G]I, the Lord of [C]sea and [G]sky
+[G]I have heard my [C]people [G]cry [D] [G]
+[G]All who dwell in [Em]dark and [Am]sin, [G] [C]
+[Am]My [Am]hand will [D]save [D] [G] [D7] [G]
+
+[G]I who made the [C]stars of [G]night
+[G]I will make their [C]darkness [G]bright [D] [G]
+[G]Who will bear My [Em]light to [Am]them [G] [C] [Am]
+[Am]Whom [G]shall I [C]send? [D]
+
+{comment: Refrain}
+[D7]Here I [G]am, [G]Lord, [G]Is it [G]I [GM7]Lord? [C] [G]
+[G]I [G]have heard You calling in the [Am]night [G] [C] [D]
+[D7]I will [G]go, [G]Lord, [G]if You [G]lead [GM7]me [C] [C] [G]
+[G]I [G]will [G]hold Your people in my [Am7]heart [D7] [G] [G] [G] [G] [G]
+
+{comment: Verse 2}
+[G]I, the Lord of [C]snow and [G]rain
+[G]I have borne My [C]people’s [G]pain [D] [G]
+[G]I have wept for [Em]love of [Am]them, [G] [C]
+[Am]they [Am]turn a[D]way [D] [G] [D7] [G]
+
+[G]I will break their [C]hearts of [G]stone
+[G]Give them hearts for [C]love a[G]lone [D] [G]
+[G]I will speak My [Em]word to [Am]them [G] [C] [Am]
+[Am]Whom [G]shall I [C]send? [D]
+
+{comment: Refrain}
+[D7]Here I [G]am, [G]Lord, [G]Is it [G]I [GM7]Lord? [C] [G]
+[G]I [G]have heard You calling in the [Am]night [G] [C] [D]
+[D7]I will [G]go, [G]Lord, [G]if You [G]lead [GM7]me [C] [C] [G]
+[G]I [G]will [G]hold Your people in my [Am7]heart [D7] [G] [G] [G] [G] [G]
+
+{comment: Verse 3}
+[G]I, the Lord of [C]wind and [G]flame
+[G]I will tend the [C]poor and [G]lame [D] [G]
+[G]I will set a [Em]feast for [Am]them, [G] [C]
+[Am]My [Am]hand will [D]save [D] [G] [D7] [G]
+
+[G]Finest bread I [C]will pro[G]vide
+[G]Till their hearts be [C]satis[G]fied [D] [G]
+[G]I will give My [Em]life to [Am]them [G] [C] [Am]
+[Am]Whom [G]shall I [C]send? [D]
+
+{comment: Refrain}
+[D7]Here I [G]am, [G]Lord, [G]Is it [G]I [GM7]Lord? [C] [G]
+[G]I [G]have heard You calling in the [Am]night [G] [C] [D]
+[D7]I will [G]go, [G]Lord, [G]if You [G]lead [GM7]me [C] [C] [G]
+[G]I [G]will [G]hold Your people in my [Am7]heart [D7] [G] [G] [G] [G] [G]

@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hymn Chords Songbook</title>
+  
+  <!-- ChordSheetJS Library -->
+  <script src="https://cdn.jsdelivr.net/npm/chordsheetjs@15.5.2/lib/bundle.min.js"></script>
+
+  <style>
+    :root {
+      --bg-color: #121212;
+      --card-bg: #1e1e1e;
+      --accent: #4da6ff;
+      --text: #e0e0e0;
+      --control-width: 200px;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text);
+      margin: 0;
+      padding: 1.5rem;
+      box-sizing: border-box;
+    }
+
+    .song-container {
+      max-width: 750px;
+      margin-right: calc(var(--control-width) + 2rem);
+      background: var(--card-bg);
+      padding: 1.5rem 2rem;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    }
+
+    /* --- Fixed Sidebar Controls --- */
+    .controls-sidebar {
+      position: fixed;
+      top: 1.5rem;
+      right: 1.5rem;
+      width: var(--control-width);
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+      z-index: 1000;
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .control-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+
+    label {
+      font-size: 0.75rem;
+      color: #aaa;
+      white-space: nowrap;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    select, button {
+      background: #2a2a2a;
+      color: white;
+      border: 1px solid #444;
+      padding: 0.4rem 0.6rem;
+      border-radius: 5px;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+
+    .btn-action {
+      font-weight: bold;
+      flex: 1;
+      padding: 0.4rem;
+    }
+
+    #key-display {
+      font-weight: bold;
+      color: var(--accent);
+      font-size: 0.9rem;
+      min-width: 25px;
+      text-align: center;
+    }
+
+    .metronome-btn {
+      font-size: 0.9rem;
+      padding: 0.35rem 0.6rem;
+    }
+
+    .metronome-btn.active {
+      background: #1a5fb4;
+      border-color: var(--accent);
+    }
+
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--accent);
+      cursor: pointer;
+    }
+
+    .val-display {
+      font-size: 0.8rem;
+      font-weight: bold;
+      color: var(--accent);
+    }
+
+    /* --- Baseline Alignment for Chords & Lyrics --- */
+    .paragraph {
+      margin-bottom: 1.5rem;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 0.5rem;
+      align-items: flex-end;
+    }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      margin-right: 0.35em;
+    }
+
+    .chord {
+      font-weight: bold;
+      color: var(--accent);
+      font-size: 0.95rem;
+      height: 1.3em;
+      line-height: 1.3em;
+      white-space: nowrap;
+    }
+
+    .lyrics {
+      font-size: 1.15rem;
+      line-height: 1.3em;
+      white-space: pre;
+      min-height: 1.3em;
+    }
+
+    .comment {
+      font-weight: bold;
+      color: #888;
+      margin: 1.2rem 0 0.5rem 0;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 900px) {
+      .song-container {
+        margin-right: 0;
+        margin-bottom: 220px;
+      }
+      .controls-sidebar {
+        position: fixed;
+        top: auto;
+        bottom: 1rem;
+        right: 1rem;
+        left: 1rem;
+        width: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar Controls -->
+  <aside class="controls-sidebar">
+    <!-- Song Dropdown fetched from agsm03/Hymn_Chords -->
+    <div class="control-group">
+      <label for="song-select">Select Hymn:</label>
+      <select id="song-select" onchange="fetchSelectedSong()" style="width: 100%;">
+        <option value="">-- Fetching hymns... --</option>
+      </select>
+    </div>
+
+    <!-- Key Shift -->
+    <div class="control-group">
+      <label>Key Shift:</label>
+      <div class="control-row">
+        <button class="btn-action" onclick="transpose(-1)">-</button>
+        <span id="key-display">0</span>
+        <button class="btn-action" onclick="transpose(1)">+</button>
+      </div>
+    </div>
+
+    <!-- Playback -->
+    <div class="control-group">
+      <label>Playback:</label>
+      <div class="control-row">
+        <button id="scroll-toggle-btn" class="btn-action" onclick="toggleScroll()" title="Start / Pause Autoscroll">▶ Play</button>
+        <button class="btn-action" onclick="rewindScroll()" title="Rewind to Top">⏮ Top</button>
+      </div>
+    </div>
+
+    <!-- Time Sig & Metronome -->
+    <div class="control-group">
+      <label>Time Sig & Audio:</label>
+      <div class="control-row">
+        <select id="time-sig-select" onchange="updateTimeSignature()" style="flex:1;">
+          <option value="4">4/4</option>
+          <option value="3">3/4</option>
+        </select>
+        <button id="metronome-btn" class="metronome-btn" onclick="toggleMetronomeSound()" title="Toggle Drum Metronome">🔇</button>
+      </div>
+    </div>
+
+    <!-- Tempo -->
+    <div class="control-group">
+      <div class="control-row">
+        <label for="bpm-slider">Tempo:</label>
+        <span id="bpm-display" class="val-display">80 BPM</span>
+      </div>
+      <input type="range" id="bpm-slider" min="30" max="240" step="5" value="80" oninput="updateBpmDisplay()">
+    </div>
+
+    <!-- Scroll Speed -->
+    <div class="control-group">
+      <div class="control-row">
+        <label for="scroll-mult-slider">Scroll Speed:</label>
+        <span id="scroll-mult-display" class="val-display">0.5x</span>
+      </div>
+      <input type="range" id="scroll-mult-slider" min="0.2" max="2.0" step="0.1" value="0.5" oninput="updateScrollSpeed()">
+    </div>
+  </aside>
+
+  <!-- Main Display Area -->
+  <main class="song-container">
+    <div id="chord-output">
+      <p style="color:#888; text-align:center; margin: 3rem 0;">Loading repository hymns...</p>
+    </div>
+  </main>
+
+  <script>
+    // CONFIGURATION: Set for your repository
+    const GITHUB_USER = 'agsm03';
+    const REPO_NAME = 'Hymn_Chords';
+
+    let currentSong = null;
+    let currentTransposeStep = 0;
+
+    let scrollInterval = null;
+    let metronomeInterval = null;
+    let isScrolling = false;
+    let isMetronomeAudible = false;
+    let currentBeat = 0;
+    let audioCtx = null;
+
+    const selectEl = document.getElementById('song-select');
+    const toggleBtn = document.getElementById('scroll-toggle-btn');
+    const bpmSlider = document.getElementById('bpm-slider');
+    const bpmDisplay = document.getElementById('bpm-display');
+    const scrollMultSlider = document.getElementById('scroll-mult-slider');
+    const scrollMultDisplay = document.getElementById('scroll-mult-display');
+    const timeSigSelect = document.getElementById('time-sig-select');
+    const metronomeBtn = document.getElementById('metronome-btn');
+
+    // Ensure Audio Context initialization complies across Windows, Android, and macOS Safari
+    function initAudioContext() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+      return audioCtx;
+    }
+
+    // 1. Fetch file list from GitHub API on page load
+    async function loadGitHubSongList() {
+      const apiUrl = `https://api.github.com/repos/${GITHUB_USER}/${REPO_NAME}/contents/`;
+
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) throw new Error('Repository network response failed');
+        
+        const files = await response.json();
+        const txtFiles = files.filter(f => f.name.endsWith('.txt'));
+
+        selectEl.innerHTML = '';
+
+        if (txtFiles.length === 0) {
+          selectEl.innerHTML = '<option value="">No .txt files found</option>';
+          document.getElementById('chord-output').innerHTML = '<p style="color:#888; text-align:center;">No .txt hymn files found in repository.</p>';
+          return;
+        }
+
+        txtFiles.forEach(file => {
+          const cleanName = file.name
+            .replace(/\.txt$/i, '')
+            .replace(/_/g, ' ')
+            .replace(/\b\w/g, l => l.toUpperCase());
+
+          const option = document.createElement('option');
+          option.value = file.download_url;
+          option.textContent = cleanName;
+          selectEl.appendChild(option);
+        });
+
+        fetchSelectedSong();
+
+      } catch (err) {
+        console.error(err);
+        document.getElementById('chord-output').innerHTML = `<p style="color:#ff6b6b; text-align:center;">Failed to fetch hymn list from GitHub repository (agsm03/Hymn_Chords).</p>`;
+      }
+    }
+
+    // 2. Fetch selected .txt file from GitHub CDN
+    async function fetchSelectedSong() {
+      const fileUrl = selectEl.value;
+      if (!fileUrl) return;
+
+      stopScroll();
+      rewindScroll();
+
+      currentTransposeStep = 0;
+      document.getElementById('key-display').textContent = '0';
+
+      try {
+        const response = await fetch(fileUrl);
+        const rawText = await response.text();
+
+        const parser = new ChordSheetJS.ChordProParser();
+        currentSong = parser.parse(rawText);
+
+        renderSong();
+      } catch (err) {
+        console.error(err);
+        document.getElementById('chord-output').innerHTML = '<p style="color:#ff6b6b; text-align:center;">Error loading hymn file contents.</p>';
+      }
+    }
+
+    function transpose(semitones) {
+      if (!currentSong) return;
+      currentTransposeStep += semitones;
+      
+      const display = currentTransposeStep > 0 ? `+${currentTransposeStep}` : currentTransposeStep;
+      document.getElementById('key-display').textContent = display;
+
+      currentSong = currentSong.transpose(semitones);
+      renderSong();
+    }
+
+    function renderSong() {
+      const formatter = new ChordSheetJS.HtmlDivFormatter();
+      const htmlOutput = formatter.format(currentSong);
+      document.getElementById('chord-output').innerHTML = htmlOutput;
+    }
+
+    // --- SYNTHESIZED DRUM SOUNDS (Web Audio API) ---
+
+    // Beat 1: Low Acoustic Kick / Boom
+    function playDrumKick() {
+      const ctx = initAudioContext();
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+
+      // Pitch sweep starting at 130Hz dropping fast to 30Hz for punchy low-end boom
+      osc.frequency.setValueAtTime(130, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(30, ctx.currentTime + 0.12);
+
+      // Volume envelope decay
+      gain.gain.setValueAtTime(1.0, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.15);
+
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+
+      osc.start(ctx.currentTime);
+      osc.stop(ctx.currentTime + 0.15);
+    }
+
+    // Other Beats: Crisp Snare / Rimshot Strike
+    function playDrumSnare() {
+      const ctx = initAudioContext();
+
+      // 1. Tonal body component
+      const osc = ctx.createOscillator();
+      const oscGain = ctx.createGain();
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(220, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(100, ctx.currentTime + 0.08);
+
+      oscGain.gain.setValueAtTime(0.5, ctx.currentTime);
+      oscGain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.08);
+
+      osc.connect(oscGain);
+      oscGain.connect(ctx.destination);
+
+      // 2. White noise snare snap component
+      const bufferSize = ctx.sampleRate * 0.08;
+      const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+      const data = buffer.getChannelData(0);
+      for (let i = 0; i < bufferSize; i++) {
+        data[i] = Math.random() * 2 - 1;
+      }
+
+      const noise = ctx.createBufferSource();
+      noise.buffer = buffer;
+
+      const filter = ctx.createBiquadFilter();
+      filter.type = 'highpass';
+      filter.frequency.value = 1000;
+
+      const noiseGain = ctx.createGain();
+      noiseGain.gain.setValueAtTime(0.4, ctx.currentTime);
+      noiseGain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.08);
+
+      noise.connect(filter);
+      filter.connect(noiseGain);
+      noiseGain.connect(ctx.destination);
+
+      osc.start(ctx.currentTime);
+      osc.stop(ctx.currentTime + 0.08);
+      noise.start(ctx.currentTime);
+    }
+
+    function playBeat(isFirstBeat) {
+      if (!isMetronomeAudible) return;
+      if (isFirstBeat) {
+        playDrumKick();  // Beat 1 gets the Boom/Kick
+      } else {
+        playDrumSnare(); // Remaining beats get Snare/Rimshot
+      }
+    }
+
+    function toggleMetronomeSound() {
+      isMetronomeAudible = !isMetronomeAudible;
+      metronomeBtn.textContent = isMetronomeAudible ? '🔊' : '🔇';
+      metronomeBtn.classList.toggle('active', isMetronomeAudible);
+      if (isMetronomeAudible) initAudioContext();
+    }
+
+    // Auto-Scroll Engine
+    function toggleScroll() {
+      initAudioContext();
+      if (isScrolling) stopScroll();
+      else startScroll();
+    }
+
+    function startScroll() {
+      if (!currentSong) return;
+      isScrolling = true;
+      toggleBtn.textContent = '⏸ Pause';
+
+      clearInterval(scrollInterval);
+      clearInterval(metronomeInterval);
+
+      const bpm = parseInt(bpmSlider.value, 10);
+      const beatsPerMeasure = parseInt(timeSigSelect.value, 10);
+      const speedMultiplier = parseFloat(scrollMultSlider.value);
+      
+      const msPerBeat = 60000 / bpm;
+      const msPerMeasure = msPerBeat * beatsPerMeasure * 2; 
+      const pxPerLine = 48; 
+      
+      const scrollDelay = (msPerMeasure / pxPerLine) / speedMultiplier;
+
+      scrollInterval = setInterval(() => {
+        window.scrollBy(0, 1);
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 2) {
+          stopScroll();
+        }
+      }, scrollDelay);
+
+      currentBeat = 0;
+      metronomeInterval = setInterval(() => {
+        playBeat(currentBeat === 0);
+        currentBeat = (currentBeat + 1) % beatsPerMeasure;
+      }, msPerBeat);
+    }
+
+    function stopScroll() {
+      isScrolling = false;
+      toggleBtn.textContent = '▶ Play';
+      clearInterval(scrollInterval);
+      clearInterval(metronomeInterval);
+    }
+
+    function rewindScroll() {
+      stopScroll();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function updateBpmDisplay() {
+      bpmDisplay.textContent = `${bpmSlider.value} BPM`;
+      if (isScrolling) startScroll();
+    }
+
+    function updateScrollSpeed() {
+      scrollMultDisplay.textContent = `${scrollMultSlider.value}x`;
+      if (isScrolling) startScroll();
+    }
+
+    function updateTimeSignature() {
+      if (isScrolling) startScroll();
+    }
+
+    window.addEventListener('DOMContentLoaded', loadGitHubSongList);
+  </script>
+
+</body>
+</html>
