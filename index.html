@@ -438,9 +438,9 @@
     function playBeat(isFirstBeat) {
       if (!isMetronomeAudible) return;
       if (isFirstBeat) {
-        playDrumKick();  // Beat 1 gets the Boom/Kick
+        playDrumSnare();  // Beat 1 gets the Boom/Kick
       } else {
-        playDrumSnare(); // Remaining beats get Snare/Rimshot
+        playDrumKick(); // Remaining beats get Snare/Rimshot
       }
     }
 
