@@ -98,6 +98,19 @@
       text-align: center;
     }
 
+    #time-sig-display {
+      flex: 1;
+      background: #2a2a2a;
+      color: var(--accent);
+      border: 1px solid #444;
+      padding: 0.4rem 0.6rem;
+      border-radius: 5px;
+      font-size: 0.85rem;
+      font-weight: bold;
+      text-align: center;
+      cursor: default;
+    }
+
     .metronome-btn {
       font-size: 0.9rem;
       padding: 0.35rem 0.6rem;
@@ -217,10 +230,8 @@
     <div class="control-group">
       <label>Time Sig & Audio:</label>
       <div class="control-row">
-        <select id="time-sig-select" onchange="updateTimeSignature()" style="flex:1;">
-          <option value="4">4/4</option>
-          <option value="3">3/4</option>
-        </select>
+        <!-- Time signature is auto-detected from the song file (line 2) and is read-only -->
+        <span id="time-sig-display">4/4</span>
         <button id="metronome-btn" class="metronome-btn" onclick="toggleMetronomeSound()" title="Toggle Drum Metronome">🔇</button>
       </div>
     </div>
@@ -258,6 +269,7 @@
 
     let currentSong = null;
     let currentTransposeStep = 0;
+    let currentBeatsPerMeasure = 4; // auto-detected from each song's second line
 
     let scrollInterval = null;
     let metronomeInterval = null;
@@ -272,7 +284,7 @@
     const bpmDisplay = document.getElementById('bpm-display');
     const scrollMultSlider = document.getElementById('scroll-mult-slider');
     const scrollMultDisplay = document.getElementById('scroll-mult-display');
-    const timeSigSelect = document.getElementById('time-sig-select');
+    const timeSigDisplay = document.getElementById('time-sig-display');
     const metronomeBtn = document.getElementById('metronome-btn');
 
     // Ensure Audio Context initialization complies across Windows, Android, and macOS Safari
@@ -325,6 +337,29 @@
       }
     }
 
+    // Reads the time signature from the ChordPro comment directive on the
+    // song's second line, e.g. {comment: 3/4}. Returns the beats-per-measure +
+    // display text, and strips that line out of the text so it never gets
+    // parsed/rendered as a section header (other comments like
+    // {comment: Verse 1} or {comment: Refrain} are untouched).
+    function extractTimeSignature(rawText) {
+      const lines = rawText.split(/\r?\n/);
+      let beats = 4;
+      let displayText = '4/4';
+
+      if (lines.length > 1) {
+        const commentMatch = lines[1].match(/^\{comment:\s*(.+?)\s*\}$/i);
+        const tsMatch = commentMatch && commentMatch[1].trim().match(/^(\d+)\s*\/\s*(\d+)$/);
+        if (tsMatch) {
+          beats = parseInt(tsMatch[1], 10);
+          displayText = `${tsMatch[1]}/${tsMatch[2]}`;
+          lines.splice(1, 1); // remove the time-signature line
+        }
+      }
+
+      return { cleanedText: lines.join('\n'), beats, displayText };
+    }
+
     // 2. Fetch selected .txt file from GitHub CDN
     async function fetchSelectedSong() {
       const fileUrl = selectEl.value;
@@ -340,8 +375,12 @@
         const response = await fetch(fileUrl);
         const rawText = await response.text();
 
+        const { cleanedText, beats, displayText } = extractTimeSignature(rawText);
+        currentBeatsPerMeasure = beats;
+        timeSigDisplay.textContent = displayText;
+
         const parser = new ChordSheetJS.ChordProParser();
-        currentSong = parser.parse(rawText);
+        currentSong = parser.parse(cleanedText);
 
         renderSong();
       } catch (err) {
@@ -438,9 +477,9 @@
     function playBeat(isFirstBeat) {
       if (!isMetronomeAudible) return;
       if (isFirstBeat) {
-        playDrumSnare();  // Beat 1 gets the Boom/Kick
+        playDrumKick();  // Beat 1 gets the Boom/Kick
       } else {
-        playDrumKick(); // Remaining beats get Snare/Rimshot
+        playDrumSnare(); // Remaining beats get Snare/Rimshot
       }
     }
 
@@ -467,7 +506,7 @@
       clearInterval(metronomeInterval);
 
       const bpm = parseInt(bpmSlider.value, 10);
-      const beatsPerMeasure = parseInt(timeSigSelect.value, 10);
+      const beatsPerMeasure = currentBeatsPerMeasure;
       const speedMultiplier = parseFloat(scrollMultSlider.value);
       
       const msPerBeat = 60000 / bpm;
@@ -509,10 +548,6 @@
 
     function updateScrollSpeed() {
       scrollMultDisplay.textContent = `${scrollMultSlider.value}x`;
-      if (isScrolling) startScroll();
-    }
-
-    function updateTimeSignature() {
       if (isScrolling) startScroll();
     }
 
