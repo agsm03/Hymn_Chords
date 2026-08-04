@@ -1,0 +1,20 @@
+{title: You are My Strength}
+{comment: 4/4}
+{comment: Verse 1}
+[D]You are my [A]strength, O God
+[G]You are my [D]help, O God
+[G]You are the [Em]One on whom I [A]call
+[D]You are my [A]shield, O God
+[G]My life I [D]yield, O God
+[G]For You will [Em]ever be my [A]all in [D]all
+
+{comment: Verse 2}
+[D]You are my [A]strength, O God
+[G]You are my [D]help, O God
+[G]You are the [Em]One on whom I [A]call
+[D]You are my [A]shield, O God
+[G]My life I [D]yield, O God
+[G]For You will [Em]ever be my [A]all in [D]all
+
+{comment: Outro}
+[G]For You will [Em]ever be my [A]all in [D]all
