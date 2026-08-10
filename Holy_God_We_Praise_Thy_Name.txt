@@ -1,58 +1,34 @@
 {title: Holy God We Praise Thy Name}
-{comment: 3/4}
+{time: 3/4}
 
 {comment: Verse 1}
-[D]            [A7sus4]      [D]
-Holy God, we praise your name; 
-                [A7sus4] [A7]
-Lord of all, we bow be-fore you; 
-[D]                 [A7sus4]  [D]
-all on earth your scepter claim,  
-                [A7sus4]  [A7]
-all in heav'n above a - dore you. 
-    [G]         [D]
-Infinite your vast domain,
-[Em]  [D]       [A7sus4] [A7]   [D]
-everlasting is     your reign. 
+[D]Holy God, we [A7sus4]praise your [D]name;
+Lord of all, we [A7sus4]bow be-[A7]fore you;
+[D]all on earth your [A7sus4]scepter [D]claim,
+all in heav'n a[A7sus4]bove a - [A7]dore you.
+Infi[G]nite your [D]vast domain,
+[Em]ever[D]lasting is [A7sus4]your [A7]reign.[D]
 
 {comment: Verse 2}
-[D]                [A7sus4]  [D]
-Hark, the glad celestial hymn 
-              [A7sus4]   [A7]
-angel choirs above are raising; 
-[D]            [A7sus4] [D]
-cherubim and sera - phim
-             [A7sus4] [A7]
-in unceasing chorus praising,
-         [G]            [D]
-fill the heav'ns with sweet accord: 
-[Em]     [D]     [A7sus4] [A7] [D]
-"Holy, holy, ho  -  ly Lord." 
+[D]Hark, the glad ce[A7sus4]lestial [D]hymn
+angel choirs a[A7sus4]bove are [A7]raising;
+[D]cherubim and [A7sus4]sera - [D]phim
+in unceasing [A7sus4]chorus [A7]praising,
+fill the [G]heav'ns with [D]sweet accord:
+[Em]"Holy, [D]holy, [A7sus4]ho  - [A7] ly [D]Lord."
 
 {comment: Verse 3}
-[D]           [A7sus4] [D]
-Lo! the apostolic  train 
-                 [A7sus4]  [A7]
-join your sacred name to hallow; 
-[D]                  [A7sus4]  [D]
-prophets swell the glad  refrain, 
-                    [A7sus4]  [A7]
-and the white-robed martyrs follow; 
-         [G]       [D]
-and from morn to set of sun, 
-[Em]          [D]          [A7sus4] [A7]   [D]
-through the church the song   goes on.
+[D]Lo! the apos[A7sus4]tolic [D]train
+join your sacred [A7sus4]name to [A7]hallow;
+[D]prophets swell the [A7sus4]glad re[D]frain,
+and the white-robed [A7sus4]martyrs [A7]follow;
+and from [G]morn to [D]set of sun,
+[Em]through the [D]church the [A7sus4]song [A7]goes [D]on.
 
 {comment: Verse 4}
-[D]            [A7sus4] [D]
-Holy Father, Holy   Son, 
-             [A7sus4]   [A7]
-Holy Spirit, Three we name you;
-[D]                [A7sus4] [D]
-while in essence only   One,
-          [A7sus4] [A7]
-undivided God we claim you, 
-     [G]      [D]
-and adoring bend the knee,
-[Em]       [D]         [A7sus4] [A7]  [D]
-while we sing this mys  – ter-y.
+[D]Holy Father, [A7sus4]Holy [D]Son,
+Holy Spirit, [A7sus4]Three we [A7]name you;
+[D]while in essence [A7sus4]only [D]One,
+undivided [A7sus4]God we [A7]claim you,
+and a[G]doring [D]bend the knee,
+[Em]while we [D]sing this [A7sus4]mys  – [A7]ter-[D]y.
