@@ -2,33 +2,33 @@
 {time: 3/4}
 
 {comment: Verse 1}
-[D]Holy God, we [A7sus4]praise your [D]name;
-Lord of all, we [A7sus4]bow be-[A7]fore you;
-[D]all on earth your [A7sus4]scepter [D]claim,
-all in heav'n a[A7sus4]bove a - [A7]dore you.
+[D]Holy God, we [A]praise your [D]name;
+Lord of all, we [A]bow be[A7]fore you;
+[D]all on earth your [A]scepter [D]claim,
+all in heav'n a[A]bove a[A7]dore you.
 Infi[G]nite your [D]vast domain,
-[Em]ever[D]lasting is [A7sus4]your [A7]reign.[D]
+[Em]ever[D]lasting is [A]your reign.[D]
 
 {comment: Verse 2}
-[D]Hark, the glad ce[A7sus4]lestial [D]hymn
-angel choirs a[A7sus4]bove are [A7]raising;
-[D]cherubim and [A7sus4]sera - [D]phim
-in unceasing [A7sus4]chorus [A7]praising,
+[D]Hark, the glad ce[A]lestial [D]hymn
+angel choirs a[A]bove are [A7]raising;
+[D]cherubim and [A]sera[D]phim
+in unceasing [A]chorus [A7]praising,
 fill the [G]heav'ns with [D]sweet accord:
-[Em]"Holy, [D]holy, [A7sus4]ho  - [A7] ly [D]Lord."
+[Em]"Holy, [D]holy, [A]holy [D]Lord."
 
 {comment: Verse 3}
-[D]Lo! the apos[A7sus4]tolic [D]train
-join your sacred [A7sus4]name to [A7]hallow;
-[D]prophets swell the [A7sus4]glad re[D]frain,
-and the white-robed [A7sus4]martyrs [A7]follow;
+[D]Lo! the apos[A]tolic [D]train
+join your sacred [A]name to [A7]hallow;
+[D]prophets swell the [A]glad re[D]frain,
+and the white-robed [A]martyrs [A7]follow;
 and from [G]morn to [D]set of sun,
-[Em]through the [D]church the [A7sus4]song [A7]goes [D]on.
+[Em]through the [D]church the [A]song goes [D]on.
 
 {comment: Verse 4}
-[D]Holy Father, [A7sus4]Holy [D]Son,
-Holy Spirit, [A7sus4]Three we [A7]name you;
-[D]while in essence [A7sus4]only [D]One,
-undivided [A7sus4]God we [A7]claim you,
+[D]Holy Father, [A]Holy [D]Son,
+Holy Spirit, [A]Three we [A7]name you;
+[D]while in essence [A]only [D]One,
+undivided [A]God we [A7]claim you,
 and a[G]doring [D]bend the knee,
-[Em]while we [D]sing this [A7sus4]mys  – [A7]ter-[D]y.
+[Em]while we [D]sing this [A]myster-[D]y.

@@ -2,42 +2,41 @@
 {time: 3/4}
 
 {comment: Verse 1}
-[D]Hail [G]Mary, full of [D]grace,
+[D]Hail Mary, [G]full of [D]grace,
 The [G]Lord is with [D]you,
 [G]Blessed are you among [D]women,
 and [C]blessed is the [G]fruit of your [D]womb, Jesus
 
-Holy [G]Mary, Mother of [D]God,
+Holy Mary,[G]Mother of [D]God,
 [G]Pray for us sinners [D]now
 and [C]at the [G]hour of [D]death, Amen.
 
 {comment: Refrain}
-[D]Gentle [G]woman, quiet [D]light,
+[D]Gentle woman, [G] quiet [D]light,
 morning [A]star, so strong and [D]bright,
-gentle [G]Mother, peaceful [D]dove,
-teach us [A]wis[G]dom, teach us [D]love.
+gentle Mother, [G] peaceful [D]dove,
+teach us [A]wisdom, [G] teach us [D]love.
 
 {comment: Verse 2}
 You were [G]chosen by the [D]Father,
 You were [A]chosen for the [D]Son.
 You were [G]chosen from all [D]women
-and for [E]woman, shining [A]one.[A7]
+and for [E]woman, shining [A]one.[Asus4]
 
 {comment: Refrain}
-[D]Gentle [G]woman, quiet [D]light,
+[D]Gentle woman, [G] quiet [D]light,
 morning [A]star, so strong and [D]bright,
-gentle [G]Mother, peaceful [D]dove,
-teach us [A]wis[G]dom, teach us [D]love.
+gentle Mother, [G] peaceful [D]dove,
+teach us [A]wisdom, [G] teach us [D]love.
 
 {comment: Verse 3}
 Blessed [G]are you among [D]women,
 Blessed in [A]turn all women [D]too.
 Blessed [G]they with peaceful [D]spirits,
-Blessed [E]they with gentle [A]hearts.[A7]
+Blessed [E]they with gentle [A]hearts.[Asus4]
 
 {comment: Refrain}
-[D]Gentle [G]woman, quiet [D]light,
+[D]Gentle woman, [G] quiet [D]light,
 morning [A]star, so strong and [D]bright,
-gentle [G]Mother, peaceful [D]dove,
-teach us [A]wis[G]dom, teach us [D]love.
-teach us [A]wis[G]dom, teach us [D]love.
+gentle Mother, [G] peaceful [D]dove,
+teach us [A]wisdom, [G] teach us [D]love.
