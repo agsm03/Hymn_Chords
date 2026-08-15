@@ -2,31 +2,25 @@
 {comment: 3/4}
 
 {comment: Verse 1}
-[D]We walk by [G]faith, and [C]not by [D]sight;
-[Em]No gra[C]cious [Am]words we [D]hear
-[Em]Of him who [Bm7]spoke as none e'er spoke,
-[Am]But we [D]believe him [G]near
+We walk by [G]faith, and [C]not by [D]sight;
+No [Em]gracious [Cmaj7]words we [Am7]hear
+Of [Em]him who spoke as [Bm7]none e'er spoke,
+But [Am7]we be[D7]lieve him [G]near
 
 {comment: Verse 2}
-[D]We may not [G]touch his [C]hands and [D]side,
-[Em]Nor fol[C]low [Am]where he [D]trod;
-[Em]Yet in his [Bm7]promise we rejoice,
-[Am]And cry, [D]“My Lord and [G]God!”
+We may not [G]touch his [C]hands and [D]side,
+Nor [Em]follow [Cmaj7]where he [Am7]trod;
+Yet [Em]in his promise [Bm7]we rejoice,
+And [Am7]cry, “My [D7]Lord and [G]God!”
 
 {comment: Verse 3}
-[D]Help then, O [G]Lord, our [C]unbe[D]lief,
-[Em]And may [C]our [Am]faith a[D]bound;
-[Em]To call on [Bm7]you when you are near,
-[Am]And seek [D]where you are [G]found
+Help then, O [G]Lord, our [C]unbe[D]lief,
+And [Em]may our [Cmaj7]faith a[Am7]bound;
+To [Em]call on you when [Bm7]you are near,
+And [Am7]seek where [D]you are [G]found
 
 {comment: Verse 4}
-[D]That when our [G]life of [C]faith is [D]done,
-[Em]In realms [C]of [Am]clearer [D]light,
-[Em]We may be[Bm7]hold you as you are,
-[Am]In full [D]and endless [G]sight.
-
-{comment: Verse 5 (Repeat of Verse 1 as an ending)}
-[D]We walk by [G]faith, and [C]not by [D]sight;
-[Em]No gra[C]cious [Am]words we [D]hear
-[Em]Of him who [Bm7]spoke as none e'er spoke,
-[Am]But we [D]believe him [G]near
+That when our [G]life of [C]faith is [D]done,
+In [Em]realms of [Cmaj7]clearer [Am7]light,
+We [Em]may behold you [Bm7]as you are,
+In [Am7]full and [D]endless [G]sight.
