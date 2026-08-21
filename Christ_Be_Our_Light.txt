@@ -1,0 +1,42 @@
+{title: Christ Be Our Light}
+{comment: 3/4}
+
+{comment: Verse 1}
+[Em]Longing for [Am7]light, we [Bm7]wait in [Esus]darkness, [Em]Longing for [Am7]truth, we [Bm7]turn to [Esus]you,
+[Em]Make us your [Am7]own, [D]your holy [G]people, [C]light for the [Am7]world to [Dsus]see.[D]
+
+{comment: Chorus}
+[G]Christ [C]be our [G]light! [Em]Shine in our [Bm]hearts, [Em]shine through the [Am7]darkness.[D]
+[G]Christ [C]be our [Em]light! [Em7]Shine in your [C]church [Am7]gathered [D]to[G]day.[Am7][G]
+
+{comment: Verse 2}
+[Em]Longing for [Am7]peace, our [Bm7]world is [Esus]troubled, [Em]longing for [Am7]hope, [Bm7]many de[Esus]spair,
+[Em]Your word a[Am7]lone [D]has pow'r to [G]save us, [C]make us your [Am7]living [Dsus]voice.[D]
+
+{comment: Chorus}
+[G]Christ [C]be our [G]light! [Em]Shine in our [Bm]hearts, [Em]shine through the [Am7]darkness.[D]
+[G]Christ [C]be our [Em]light! [Em7]Shine in your [C]church [Am7]gathered [D]to[G]day.[Am7][G]
+
+{comment: Verse 3}
+[Em]Longing for [Am7]food, [Bm7]many are [Esus]hungry, [Em]longing for [Am7]water, [Bm7]many still [Esus]thirst,
+[Em]Make us your [Am7]bread, [D]broken for [G]others, [C]shared until [Am7]all are [Dsus]fed.[D]
+
+{comment: Chorus}
+[G]Christ [C]be our [G]light! [Em]Shine in our [Bm]hearts, [Em]shine through the [Am7]darkness.[D]
+[G]Christ [C]be our [Em]light! [Em7]Shine in your [C]church [Am7]gathered [D]to[G]day.[Am7][G]
+
+{comment: Verse 4}
+[Em]Longing for [Am7]shelter, [Bm7]many are [Esus]homeless, [Em]longing for [Am7]warmth, [Bm7]many are [Esus]cold,
+[Em]Make us your [Am7]building, [D]sheltering [G]others, [C]walls made of [Am7]living [Dsus]stone.[D]
+
+{comment: Chorus}
+[G]Christ [C]be our [G]light! [Em]Shine in our [Bm]hearts, [Em]shine through the [Am7]darkness.[D]
+[G]Christ [C]be our [Em]light! [Em7]Shine in your [C]church [Am7]gathered [D]to[G]day.[Am7][G]
+
+{comment: Verse 5}
+[Em]Many the [Am7]gifts, [Bm7]many the [Esus]people, [Em]many the [Am7]hearts that [Bm7]yearn to be[Esus]long,
+[Em]Let us be [Am7]servants [D]to one an[G]other, [C]making your [Am7]kingdom [Dsus]come.[D]
+
+{comment: Chorus}
+[G]Christ [C]be our [G]light! [Em]Shine in our [Bm]hearts, [Em]shine through the [Am7]darkness.[D]
+[G]Christ [C]be our [Em]light! [Em7]Shine in your [C]church [Am7]gathered [D]to[G]day.[Am7][G]
