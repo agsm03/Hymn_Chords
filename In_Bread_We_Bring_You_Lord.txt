@@ -1,21 +1,37 @@
 {title: In Bread We Bring You, Lord}
 
 {comment: Verse 1}
-[F]In bread we bring you, Lord, our bodies' [C7]la[F]bour.
-In [Bb]wine we offer you our spirits' [F]grief.
-We do not ask you, Lord, who is my [C]neigh[F]bour,
-but [Bb]stand united now, one in [F]belief.
-O [Bb]we have gladly heard your [F]Word, your holy [Dm]Word,
-and [G]now in answer, [C]Lord, our gifts we [F]bring.
-Our [Bb]selfish hearts make true, our [C]failing [F]faith re[Dm]new,
-our [G]lives belong to [C]you, our Lord and [F]King.
+[F]In bread we bring you, Lord, 
+our bodies' [C7]la[F]bour.
+In [F7]wine we [Bb]offer you 
+our spirits' [F]grief.
+We do not ask you, Lord, 
+who is my [C7]neigh[F]bour,
+but [F7]stand u[Bb]nited now, 
+one in be[F]lief.
+O we have [Bb]gladly heard [C7]
+your Word, your [F]holy Word, [Dm]
+and now in G7]answer, Lord, [C7]
+our gifts we [F]bring.
+Our selfish [Bb]hearts make true, [C7]
+our failing [F]faith renew, [Dm]
+our lives be[G7]long to you, [C7]
+our Lord and [F]King.
 
 {comment: Verse 2}
-The [F]bread we offer you is blessed and [C7]bro[F]ken,
-and [Bb]it becomes for us our spirits' [F]food.
-Over the cup we bring your Word is [C]spo[F]ken;
-make [Bb]it your gift to us, your healing [F]blood.
-Take [Bb]all that daily [C]toil plants [F]in our hearts' poor [Dm]soil,
-take [G]all we start and [C]spoil, each hopeful [F]dream,
-the [Bb]chances we have [C]missed, the [F]graces we re[Dm]sist,
-Lord, [G]in thy Euch[C]arist, take and re[F]deem.
+The [F]bread we offer you
+is blessed and [C7]bro[F]ken,
+and [F7]it be[Bb]comes for us
+our spirits' [F]food.
+Over the cup we bring
+your Word is [C7]spo[F]ken;
+make [F7]it your [Bb]gift to us,
+your healing [F]blood.
+Take all that [Bb]daily toil [C7]
+plants in our [F]hearts' poor soil, [Dm]
+take all we [G7]start and spoil, [C7]
+each hopeful [F]dream,
+the chances [Bb]we have missed, [C7]
+the graces [F]we resist, [Dm]
+Lord, in thy [G7]Eucharist, [C7]
+take and re[F]deem.
