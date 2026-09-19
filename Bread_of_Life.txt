@@ -1,29 +1,22 @@
 {title: Bread of Life}
 
 {comment: Verse 1}
-[D#]Bread of life and [A#/D]cup of hope, [Cm] [A#] [G#]we come as [Eb/Bb]gift to [A#]you. [D#] [- Eb/Bb]
-[D#]Change our hearts; [A#/D]fill us with peace, [Cm] [G#] [Eb/Bb]transform our lives a[A#]new. [D#]
-[A#/D]Open our eyes [D#]so that we might [G#]see [A#]
-[A#/D]your presence in [Cm]one an[G#]oth[A#]er.
-[D#]Your life, poured out [A#/D]in love [Cm] [A#]to[G#]day,
-[Eb/Bb]unites us [A#]all in [D#]you.
+[C]Bread of life and [G/B]cup of [Am]hope, [G] [F]we come as [C/G]gift to [G]you. [C]
+[C]Change our hearts; [G/B]fill us [Am]with peace, [G] [F]transform our [C/G]lives a[G6]new. [G7] [C]
+[G/B]Open our [Am]eyes [G] [F]so that we might see
+[G/B]your presence in [Am]one an[G]oth[F]er.
+[C]Your life, poured out [G/B]in love [Am]to[G]day, [F]unites us [C/G]all in [G6]you. [G7] [C]
 
 {comment: Verse 2}
-[D#]Loving Lord, [A#/D]Cre[Cm]a[A#]tor [G#]God,
-[Eb/Bb]open our [A#]eyes to [D#]see [- Eb/Bb]
-[D#]the good that lives [A#/D]in each [Cm]of [A#]us, [G#]
-[Eb/Bb]that called the world [A#]to be. [D#]
-[A#/D]And when we fail [D#]to see the [G#]good, [A#]
-[A#/D]when friendships fal[Cm]ter and crum[G#]ble, [A#]
-[D#]give us the cour[A#/D]age to [Cm]for[A#]give [G#]
-[Eb/Bb]that we may [A#]live in [D#]peace.
+[C]Loving Lord, [G/B]Cre[Am]a[G]tor [F]God, [C/G]open our [G]eyes to [C]see
+[C]the good that lives [G/B]in each [Am]of [G]us, [F]that called the [C/G]world to [G6]be. [G7] [C]
+And [G/B]when we fail [Am]to see [G]the [F]good,
+when [G/B]friendships fal[Am]ter and [G]crum[F]ble,
+give us the cour[G/B]age to [Am]for[G]give [F]that we may [C/G]live in [G6]peace. [G7] [C]
 
 {comment: Verse 3}
-[F]Living Word, O [C/E]Son [Dm]of [C]God, [A#]
-[F/C]your love shows us [C]the way [F] [F/C]
-[F]that we may live [C]in har[Dm]mo[C]ny, [A#]
-[F/C]and from you ne[C]ver stray. [F]
-[C/E]Wipe all oppres[F]sion from our [A#]midst; [C]
-[C/E]give us a love [Dm7]for all peo[A#]ple. [C]
-[F]Your song of jus[C/E]tice sing [Dm]in [C]us, [A#]
-[F/C]to live for [C]peace to[F]day.
+[D]Living Word, O [A/C#]Son [Bm]of [A]God, [G]your love shows [D/A]us the [A]way [D]
+[D]that we may live [A/C#]in har[Bm]mo[A]ny, [G]and from you [D/A]nev[A6]er [A7]stray. [D]
+[A/C#]Wipe all oppres[Bm]sion [A]from [G]our midst;
+give us a love [A/C#]for all [Bm]peo[A]ple. [G]
+[D]Your song of jus[A/C#]tice sing [Bm]in [A]us, [G]to live for [D/A]peace to[A6]day. [A7] [D]
