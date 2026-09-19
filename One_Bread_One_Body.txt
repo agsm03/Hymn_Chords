@@ -1,12 +1,12 @@
 {title: One Bread One Body}
 
 {comment: Chorus}
-One [G]bread [C], one [G]body [C] [G], 
+One [G]bread [C], one [G]body, [C] [G] 
 one [D]Lord of [Em]all, [B] [Em]
 one [D]cup of [G]blessing [Em]which we [A]bless. [D]
-And [G]we [C] though [G]many [C], 
+And [G]we [C] though [G]many [C], [G]
 through[D]out the [Em]earth, [B] [Em]
-we [D]are one [G]body [Em]in this [A]one [D]Lord.
+we [D]are one [G]body [Em]in this [A]one [G]Lord.
 
 {comment: Verse 1}
 [Em] Gentile or [D]Jew, 
@@ -15,12 +15,12 @@ we [D]are one [G]body [Em]in this [A]one [D]Lord.
 no [D]more. [D7]
 
 {comment: Chorus}
-One [G]bread [C], one [G]body [C] [G], 
+One [G]bread [C], one [G]body, [C] [G], 
 one [D]Lord of [Em]all, [B] [Em]
 one [D]cup of [G]blessing [Em]which we [A]bless. [D]
-And [G]we [C] though [G]many [C], 
+And [G]we [C] though [G]many [C], [G]
 through[D]out the [Em]earth, [B] [Em]
-we [D]are one [G]body [Em]in this [A]one [D]Lord.
+we [D]are one [G]body [Em]in this [A]one [G]Lord.
 
 {comment: Verse 2}
 [Em] Many the [D]gifts, 
