@@ -1,21 +1,29 @@
 {title: One Bread One Body}
 
 {comment: Chorus}
-[G]One [C]bread, one [G]bo[C]dy, [G]one Lord [D]of [Em]all, [B7] [Em]
-one [D]cup of [G]blessing [Em]which we [A]bless. [D] [D7]
-And [G]we [C]though [G]ma[C]ny, [G]throughout [D]the [Em]earth, [B7] [Em]
-we [D]are one [G]body [Em]in this [A]one [D]Lord. [G] [C] [G] [C] [Em]
+One [G]bread [C], one [G]body [C] [G], 
+one [D]Lord of [Em]all, [B] [Em]
+one [D]cup of [G]blessing [Em]which we [A]bless. [D]
+And [G]we [C] though [G]many [C], 
+through[D]out the [Em]earth, [B] [Em]
+we [D]are one [G]body [Em]in this [A]one [D]Lord.
 
 {comment: Verse 1}
-[Em]Gentile or [D]Jew, [Em]servant or [D]free,
-[Em]woman or [F]man, [Am]no [D]more. [D7]
+[Em] Gentile or [D]Jew, 
+[Em] servant or [D]free, 
+[Em] woman or [F]man, [Am] 
+no [D]more. [D7]
 
 {comment: Chorus}
-[G]One [C]bread, one [G]bo[C]dy, [G]one Lord [D]of [Em]all, [B7] [Em]
-one [D]cup of [G]blessing [Em]which we [A]bless. [D] [D7]
-And [G]we [C]though [G]ma[C]ny, [G]throughout [D]the [Em]earth, [B7] [Em]
-we [D]are one [G]body [Em]in this [A]one [D]Lord. [G] [C] [G] [C] [Em]
+One [G]bread [C], one [G]body [C] [G], 
+one [D]Lord of [Em]all, [B] [Em]
+one [D]cup of [G]blessing [Em]which we [A]bless. [D]
+And [G]we [C] though [G]many [C], 
+through[D]out the [Em]earth, [B] [Em]
+we [D]are one [G]body [Em]in this [A]one [D]Lord.
 
 {comment: Verse 2}
-[Em]Many the [D]gifts, [Em]many the [D]works,
-[Em]one in the [F]Lord [Am]of [D]all. [D7]
+[Em] Many the [D]gifts, 
+[Em] many the [D]works, 
+[Em] one in the [F]Lord [Am]
+of [D]all. [D7]
