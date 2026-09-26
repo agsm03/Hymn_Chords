@@ -2,56 +2,43 @@
 {comment: 4/4}
 
 {comment: Verse 1}
-[A]Many hearts are [E/G#]hungry to[F#m]night
-[Bm]Many trapped in darkness [A]
+[A]Many hearts are [E/G#]hungry to[F#m7]night
+[Bm7]Many trapped in darkness
 [D]Yearn for the [E]light
 
 So [F#m]many who are far from home
-And [Bm]many who are [D]lost
-O [A]Lord, Your wounded children [D]
-Need the power of Your [Bm]cross [E]
+And [B]many who are [D]lost
+O [A]Lord, Your wounded [D]children need
+the [Bm7]power of Your [E]cross
 
 {comment: Chorus}
 As [A]bread that is broken
-[D]Use our [A/C#]lives, [Bm]
+[D]Use [A]our [Bm]lives,
 As [E]wine that is poured out
-[D]A willing [A]sacrifice
+A [D]willing [E]sacrifice [A]
 
-[A]Empower us, Father
-[D]To share the love of [Bm]Christ
+Empower us, Father
+[D]To share the [A]love of [Bm]Christ
 As [A]bread that is broken, Lord [D]
-Use our [E]lives [A]
+[F#m7]Use [E]our [A]lives 
 
 {comment: Verse 2}
-[A]Help us to be[E/G#]gin where we [F#m]are
-[Bm]Help us love the people [A]
+[A]Help us to begin [E/G#]where we [F#m7]are
+[Bm7]Help us love the peo[A]ple 
 [D]near to our [E]hearts
 
 Then [F#m]give our faith a mission field
-[Bm]Wherever You may [D]call, Lord
-[A]Love Your world through each of us [D]
-Until we’ve [Bm]touched them all [E]
+Wher[B]ever You may [D]call, 
+Lord, [A]Love Your world through [D]each of us
+Un[Bm7]til we’ve touched them [E]all
 
 {comment: Chorus}
 As [A]bread that is broken
-[D]Use our [A/C#]lives, [Bm]
+[D]Use [A]our [Bm]lives,
 As [E]wine that is poured out
-[D]A willing [A]sacrifice
+A [D]willing [E]sacrifice [A]
 
-[A]Empower us, Father
-[D]To share the love of [Bm]Christ
+Empower us, Father
+[D]To share the [A]love of [Bm]Christ
 As [A]bread that is broken, Lord [D]
-Use our [E]lives [A]
-
-{comment: Chorus}
-As [A]bread that is broken
-[D]Use our [A/C#]lives, [Bm]
-As [E]wine that is poured out
-[D]A willing [A]sacrifice
-
-[A]Empower us, Father
-[D]To share the love of [Bm]Christ
-As [A]bread that is broken, Lord
-[D]As wine that is poured out, Lord
-[A]As bread that is broken, Lord
-[E]Use our [A]lives
+[F#m7]Use [E]our [A]lives 
